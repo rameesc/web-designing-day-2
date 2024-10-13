@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- icon font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper carousal -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+  <header>
+    <div class="header-top container-fluid ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8  col-sm-4 col-md-6 d-flex align-items-center">
+            <div class="dropdown">
+              <span class=" dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./images/united-states.svg" alt="">
+              </span>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><span><img src="./images/united-states.svg" alt=""> UN</span></li>
+                <li><span><img src="./images/germany.svg" alt=""> UN</span></li>
+                <li><span><img src="./images/united-states.svg" alt=""> UN</span></li>
+                
+              </ul>
+            </div>
+
+            <div class="input-group ">
+             
+              <input type="text" class="form-control" placeholder="search" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 col-sm-6 col-md-6  twobtn">
+            <button   class="find-doctor">Find a Doctor</button>
+            <button class="request">Request Appointment</button>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-center">
+      <nav class="navbar1 navbar-expand-lg navbar-light bg-light">
+        <div  class="container  d-flex  justify-content-between align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+            
+           <div class="row ">
+            <div style="margin-top: 10px;" class="col-lg-6 right-main ">
+              <span><i class="fa-solid fa-location-pin"></i> Address</span>
+              <p>5525 W Slauson Ave, <br> LA CA 90056, USA</p>
+            </div>
+            <div style="margin-top: 10px;" class="col-lg-6 right-main">
+              <span><i class="fa-solid fa-phone"></i> Phone Appointment</span>
+              <p>(555) 555-1234 <br> (555) 555-1234</p>
+            </div>
+            
+           
+
+           </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <div  class="bottom-header">
+      <nav class="navbar navbar-expand-lg  navbar-light ">
+        <div class="container">
+        
+        
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-linkz dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-linkz dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-linkz dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 components
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-linkz dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Utilities
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-linkz dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plugins
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-linkz dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Documentation
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+
+  </header>
+  <main>
+    <!-- carousal -->
+    <div class="container-fluid px-0">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper itemsapp">
+          <!-- <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div> -->
+        </div>
+        <div id="left" class="swiper-button-next buttons"></div>
+        <div id="right" class="swiper-button-prev buttons"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+
+    </div>
+    <div class="container-fluid slider-bottam">
+      <div class="container">
+        <div class="slider-bottam-row  ">
+          <div class="">
+            <h2>STAY INFORMED. CONNECT WITH US.</h2>
+
+          </div>
+          <div class="span-item">
+            <span><i class="fa-brands fa-square-facebook" style="color: #746bf5;"></i></span>
+            <span><i class="fa-brands fa-youtube" style="color: #e62d2d;"></i></span>
+            <span><i class="fa-brands fa-linkedin" style="color: #238fe1;"></i></span>
+            <span><i class="fa-brands fa-square-facebook" style="color: #746bf5;"></i></span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container-fluid">
+      <div class="container helping-line">
+          <div class="helping">
+            <div class="helping-title">
+              <p>Brigham Health</p>
+              <h1>HELPING OUR PATIENTS</h1>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="helping-twoo">
+            <div class="item-helping helping-first">
+              <h1>HOW CAN WE HELP YOU?</h1>
+              <div class="how-can">
+                <h3>Find a Doctor</h3>
+                <i class="fa-solid fa-chevron-right"></i>
+
+              </div>
+              <div class="how-can">
+                <h3>Request Appoiniment</h3>
+                <i class="fa-solid fa-chevron-right"></i>
+
+              </div>
+              <div class="how-can">
+                <h3>Location</h3>
+                <i class="fa-solid fa-chevron-right"></i>
+
+              </div>
+              <div class="how-can">
+                <h3>Services</h3>
+                <i class="fa-solid fa-chevron-right"></i>
+
+              </div>
+              
+            </div>
+            <div class="helping-two item-helping ">
+              <img src="./images/blog-1.jpg" alt="">
+              <div class="blog">
+                <h1>Brigham Health Physicians Named Top Doctors</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa id exercitationem possimus doloremque unde necessitatibus iste modi quam? Ullam.</p>
+
+              </div>
+              <div class="blog-boottum">
+                <button>Learn More <i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+            <div class="helping-two item-helping">
+              <img src="./images/blog-1.jpg" alt="">
+              <div class="blog">
+                <h1>Brigham Health Physicians Named Top Doctors</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa id exercitationem possimus doloremque unde necessitatibus iste modi quam? Ullam.</p>
+
+              </div>
+              <div class="blog-boottum">
+                <button>Learn More <i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+            <div class="helping-two item-helping">
+              <div class="contanir-items">
+                <h1>LATEST NEWS</h1>
+                <ul>
+                  <li> Deserunt blanditiis nulla commodi adipisci esse a sed veniam accusantium similique ex.</li>
+                  <li> Deserunt blanditiis nulla commodi adipisci esse a sed veniam accusantium similique ex.</li>
+                  <li> Deserunt blanditiis nulla commodi adipisci esse a sed veniam accusantium similique ex.</li>
+                  <li> Deserunt blanditiis nulla commodi adipisci esse a sed veniam accusantium similique ex.</li>
+                </ul>
+                <div class="blog-boottum">
+                  <button>Learn More <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+              </div>
+              
+             
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="container-fluid center-bg-img">
+      <div class="container center-all">
+        <div class="helping">
+          <div style="margin: 50px 0px;" class="helping-title">
+            <p style="color: white;">All centers</p>
+            <h1 style="color: white;">CENTERS OF EXCELLENCE</h1>
+            <div style="border-bottom:2px solid white;" class="line"></div>
+          </div>
+        </div>
+        <div class="center-grid">
+          <div class="center-item">
+            <p>Cancer Center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>Orthopedic center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>Heart and vascular center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>The ling center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>Neuroscince Center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>Women Health Center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>Primary Care Center</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="center-item">
+            <p>All Departments &services</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="center-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellat, minus laudantium explicabo assumenda autem! Debitis iusto dicta cupiditate fugiat!</p>
+        </div>
+
+      </div>
+    </section>
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="helping">
+          <div style="margin: 50px 0px;" class="helping-title">
+            <p >RECENT POSTS</p>
+            <h1 >FROM OUR BLOG</h1>
+            <div  class="line"></div>
+          </div>
+        </div>
+        <div class="grid-blog">
+          <div class="glog-item">
+            <img src="./images/blog-1.jpg" alt="">
+            <div class="blog-text">
+              <h2>Should you be worried about Microplasticsin your food?</h2>
+              <p class="name">John Doe . 10 Jan,2019</p>
+              <p class="discription">Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
+            </div>
+          </div>
+          <div class="glog-item">
+            <img src="./images/blog-1.jpg" alt="">
+            <div class="blog-text">
+              <h2>Should you be worried about Microplasticsin your food?</h2>
+              <p>John Doe . 10 Jan,2019</p>
+              <p>Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
+            </div>
+          </div>
+          <div class="glog-item">
+            <img src="./images/blog-1.jpg" alt="">
+            <div class="blog-text">
+              <h2>Should you be worried about Microplasticsin your food?</h2>
+              <p>John Doe . 10 Jan,2019</p>
+              <p>Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
+            </div>
+          </div>
+          <div class="glog-item">
+            <img src="./images/blog-1.jpg" alt="">
+            <div class="blog-text">
+              <h2>Should you be worried about Microplasticsin your food?</h2>
+              <p>John Doe . 10 Jan,2019</p>
+              <p>Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
+            </div>
+          </div>
+          <div class="glog-item">
+            <img src="./images/blog-1.jpg" alt="">
+            <div class="blog-text">
+              <h2>Should you be worried about Microplasticsin your food?</h2>
+              <p>John Doe . 10 Jan,2019</p>
+              <p>Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
+            </div>
+          </div>
+          <div class="glog-item">
+            <img src="./images/blog-1.jpg" alt="">
+            <div class="blog-text">
+              <h2>Should you be worried about Microplasticsin your food?</h2>
+              <p>John Doe . 10 Jan,2019</p>
+              <p>Plastic — it’s in the air, sea and probably your body. Find out what are microplastics doing to your health...</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+    
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row-life">
+          <div class="life-left">
+            <h1>Life, Giving,  Breakthroughs,</h1>
+            <p>We are inspired by our patients’ courage, our caregivers’ compassion, and our scientists’ curiosity—all fueled by our donors’ generosity.</p>
+            <button>Give Now</button>
+          </div>
+
+          <div  id="lifenone" class="life-right">
+            <img src="./images/13.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid  comtant-us">
+      <div class="container">
+        <div class="row d-flex gap-lg-0 gap-md-4 gap-5 cols-lg-3 cols-md-2 cols-sm-2 cols-1">
+          <div class="col contact-items">
+            <img src="./icons/customer-service.png" alt="">
+           <div>
+            <h2>+(123) 456 78910</h2>
+            <p style="color: white;"> Have aquestion? call us now</p>
+           </div>
+          </div>
+          <div class="col contact-items">
+            <img src="./icons/mail-5.png" alt="">
+           <div>
+            <h2>help@medicare.com</h2>
+            <p style="color: white;">Need support? Drop Us an email</p>
+           </div>
+          </div>
+          <div class="col contact-items">
+            <img src="./icons/clock-2.png" alt="">
+           <div>
+            <h2>Mon- Sat 07:00-21:00</h2>
+            <p style="color: white;">We are open on</p>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container-fluid" >
+    <div class="container footer-container">
+      <div class="row cols-lg-4 cols-1 cols-md-2 cols-sm-1">
+        <div class="col">
+          <img src="./images/logo.png" alt="">
+          <h3>brigham and women's hospital</h3>
+          <p>75 FRANCIS STREET, BOSTON MA 02115</p>
+          <p>General information <span>671-732-5500</span></p>
+          <p>New Patients <span>800-294-9999</span></p>
+        </div>
+        <div class="col">
+         <h4>CENTERS</h4>
+         <ul>
+          <li>Cancer Center</li>
+          <li>Heart & Vascular center</li>
+          <li>The Kung Center</li>
+          <li> Neurosciences Center</li>
+          <li>Orthopaedic & Arthritis Center</li>
+          <li>Primary Care Center</li>
+          <li>Women's Health Center</li>
+        
+         </ul>
+        </div>
+        <div class="col">
+         <h4>CLINICAL DEPARTMENTS</h4>
+         <ul>
+          <li>Cancer Center</li>
+          <li>Heart & Vascular center</li>
+          <li>The Kung Center</li>
+          <li> Neurosciences Center</li>
+          <li>Orthopaedic & Arthritis Center</li>
+          <li>Primary Care Center</li>
+          <li>Women's Health Center</li>
+        
+         </ul>
+        </div>
+        <div class="col">
+         <h4>DEPARTMENTS</h4>
+         <ul>
+          <li>Cancer Center</li>
+          <li>Heart & Vascular center</li>
+          <li>The Kung Center</li>
+          <li> Neurosciences Center</li>
+          <li>Orthopaedic & Arthritis Center</li>
+          <li>Primary Care Center</li>
+          <li>Women's Health Center</li>
+        
+         </ul>
+        </div>
+      </div>
+
+    </div>
+    
+
+  </footer>
+
+
+  
+    <!-- swipe carousal js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- /-------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
